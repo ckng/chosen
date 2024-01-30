@@ -1,7 +1,7 @@
 <!---
 Good pull requests — patches, improvements, new features — are a fantastic help.  They should remain focused in scope and avoid containing unrelated commits.
 
-Please review the Pull Requests section of our Contributing Guidelines before submitting your work: https://github.com/jjj/chosen/blob/master/contributing.md#pull-requests
+Please review the Pull Requests section of our Contributing Guidelines before submitting your work: https://github.com/ItsTino/chosen/blob/master/contributing.md#pull-requests
 -->
 
 ### Summary
@@ -11,12 +11,12 @@ Provide a general description of the code changes in your pull request.
 Please double-check that:
 
   - [ ] All changes were made in CoffeeScript files, **not** JavaScript files.
-  - [ ] You used [Grunt](https://github.com/jjj/chosen/blob/master/contributing.md#grunt) to build the JavaScript files and tested them locally.
+  - [ ] You used [Grunt](https://github.com/ItsTino/chosen/blob/master/contributing.md#grunt) to build the JavaScript files and tested them locally.
   - [ ] You've updated both the jQuery *and* Prototype versions.
   - [ ] You haven't manually updated the version number in `package.json`.
-  - [ ] If necessary, you've updated [the documentation](https://github.com/jjj/chosen/blob/master/docs/options.html).
+  - [ ] If necessary, you've updated [the documentation](https://github.com/ItsTino/chosen/blob/master/docs/options.html).
 
-See the [Pull Requests section of our Contributing Guidelines](https://github.com/jjj/chosen/blob/master/contributing.md#pull-requests) for more details.
+See the [Pull Requests section of our Contributing Guidelines](https://github.com/ItsTino/chosen/blob/master/contributing.md#pull-requests) for more details.
 
 ### References
 
