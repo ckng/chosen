@@ -1,9 +1,11 @@
-name: Build and Upload Artifact
+name: Build and Release
 
 on:
   push:
     branches:
       - master
+    tags:
+      - 'v*'
 
 jobs:
   build:
@@ -15,13 +17,21 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '12' # Specify your Node.js version
+        node-version: '12' # Use Node.js version 12
 
     - name: Install Dependencies
       run: npm install
 
     - name: Build Project
       run: grunt build # Replace with your build command
+
+    - name: Create a Release
+      if: startsWith(github.ref, 'refs/tags/v')
+      uses: elgohr/Github-Release-Action@v5
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        title: MyReleaseMessage
 
     - name: Upload Build Artifact
       uses: actions/upload-artifact@v4
