@@ -1,3 +1,4 @@
+[![NodeJS with Grunt](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt.yml/badge.svg)](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt.yml)
 # This library is old and abandoned
 This repo existed solely as a way to merge incomplete PR's into the most recent (also abandoned) fork of chosenJS
 If you are trying to start a new project with this library
