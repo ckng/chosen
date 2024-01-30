@@ -1,4 +1,4 @@
-[![NodeJS with Grunt](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt.yml/badge.svg)](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt.yml)
+[![Grunt Test](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt-test.yml/badge.svg)](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt-test.yml)[![Build and Release](https://github.com/ItsTino/chosen/actions/workflows/release.yml/badge.svg)](https://github.com/ItsTino/chosen/actions/workflows/release.yml)[![Deploy static content to Pages](https://github.com/ItsTino/chosen/actions/workflows/static.yml/badge.svg?branch=master)](https://github.com/ItsTino/chosen/actions/workflows/static.yml)
 # This library is old and abandoned
 This repo existed solely as a way to merge incomplete PR's into the most recent (also abandoned) fork of chosenJS
 If you are trying to start a new project with this library
