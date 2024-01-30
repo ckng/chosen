@@ -1,3 +1,9 @@
+# This library is old and abandoned
+This repo existed solely as a way to merge incomplete PR's into the most recent (also abandoned) fork of chosenJS
+If you are trying to start a new project with this library
+- Don't do it
+- Accept that this will likely never be updated
+
 # Chosen
 
 Chosen is a library for making long, unwieldy select boxes more user friendly.
