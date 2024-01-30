@@ -18,18 +18,8 @@ For **downloads**, see:
 https://github.com/ItsTino/chosen/releases/
 
 ### Package managers
-
-To install with npm:
-
-```
-npm install chosen-ItsTino
-```
-
-To install with Composer:
-
-```
-composer require ItsTino/chosen
-```
+This fork is not available on Package Managers
+Please use this repo [harvest/chosen](https://github.com/harvesthq/chosen)
 
 ### Contributing to this project
 
@@ -43,6 +33,7 @@ We welcome all to participate in making Chosen the best software it can be. The 
 ### Chosen Credits
 
 - Concept and development by [Patrick Filler](http://patrickfiller.com) for [Harvest](http://getharvest.com/)
+- Forked from [JJJ/chosen](https://github.com/JJJ/chosen)
 - Design and CSS by [Matthew Lettini](http://matthewlettini.com/)
 - 1.8.x and earlier maintained by [@pfiller](http://github.com/pfiller), [@kenearley](http://github.com/kenearley), [@stof](http://github.com/stof), [@koenpunt](http://github.com/koenpunt), and [@tjschuck](http://github.com/tjschuck)
 - 2.0.x and later maintained by [@ItsTino](http://github.com/ItsTino) and contributors
