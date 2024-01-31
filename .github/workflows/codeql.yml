@@ -1,0 +1,40 @@
+name: "Build, Scan and Analyze"
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  schedule:
+    - cron: '40 14 * * 4'
+
+jobs:
+  build-and-analyze:
+    name: Build and Analyze
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '12' # Specify your Node.js version
+
+    - name: Install Dependencies
+      run: npm install
+
+    - name: Build Project
+      run: grunt build # This will build your project and output to ./docs/
+
+    # Initializes the CodeQL tools for scanning.
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v3
+      with:
+        languages: 'javascript-typescript' # Specify the language(s)
+        # Optionally, you can point to the build directory
+        source-root: 'docs' # CodeQL will analyze code in the 'docs' directory
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v3
