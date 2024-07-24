@@ -1,5 +1,5 @@
 <!---
-Please read our Contributing Guidelines before opening this issue: https://github.com/ItsTino/chosen/blob/master/contributing.md
+Please read our Contributing Guidelines before opening this issue: https://github.com/ckng/chosen/blob/master/contributing.md
 
 Specifically, please note that the issue tracker is intended for bug reports and specific feature requests.
 
@@ -18,7 +18,7 @@ Tell us how to reproduce this issue.
 
   3. Further steps, etc.
 
-Additionally, please link to a working demo that shows the issue so we can attempt to reproduce.  You can use [this template](https://jsfiddle.net/j7k727cp/) as a base.  Alternatively, confirm that the [Chosen demo page](https://ItsTino.github.io/chosen/) shows the issue.
+Additionally, please link to a working demo that shows the issue so we can attempt to reproduce.  You can use [this template](https://jsfiddle.net/j7k727cp/) as a base.  Alternatively, confirm that the [Chosen demo page](https://ckng.github.io/chosen/) shows the issue.
 
 
 ### Expected behavior

@@ -15,7 +15,7 @@ an excellent starting point for contributing to any open source project._
 
 ## Using the issue tracker
 
-The [issue tracker](https://github.com/ItsTino/chosen/issues) is the
+The [issue tracker](https://github.com/ckng/chosen/issues) is the
 preferred channel for [bug reports](#bugs), [features requests](#features)
 and [submitting pull requests](#pull-requests), but please respect the
 following restrictions:
@@ -38,7 +38,7 @@ Good bug reports are extremely helpful &mdash; thank you!
 
 Guidelines for bug reports:
 
-1. **Use the [GitHub issue search](https://github.com/ItsTino/chosen/search?type=Issues)** &mdash; check if the issue has already been
+1. **Use the [GitHub issue search](https://github.com/ckng/chosen/search?type=Issues)** &mdash; check if the issue has already been
    reported.
 
 2. **Check if the bug has already been fixed** &mdash; try to reproduce it using the
@@ -126,7 +126,7 @@ these guidelines is the best way to get your work included in Chosen.
    # Navigate to the newly cloned directory
    cd chosen
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/ItsTino/chosen
+   git remote add upstream https://github.com/ckng/chosen
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -191,4 +191,4 @@ Once you're configured, `grunt` tasks are available:
 
     grunt watch                # watch coffee/ for changes and build Chosen
 
-If you're interested, you can find the task in [Gruntfile.coffee](https://github.com/ItsTino/chosen/blob/master/Gruntfile.coffee).
+If you're interested, you can find the task in [Gruntfile.coffee](https://github.com/ckng/chosen/blob/master/Gruntfile.coffee).

@@ -1,5 +1,5 @@
 {
-  "author": "ItsTino",
+  "author": "ckng",
   "name": "chosen",
   "version": "2.2.1",
   "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
@@ -13,7 +13,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ItsTino/chosen.git"
+    "url": "https://github.com/ckng/chosen.git"
   },
   "engines": {
     "node": ">=4"
@@ -45,7 +45,7 @@
   "contributors": [
     {
       "name": "John James Jacoby",
-      "url": "https://github.com/ItsTino"
+      "url": "https://github.com/ckng"
     },
     {
       "name": "Patrick Filler",
@@ -65,17 +65,17 @@
     }
   ],
   "license": "MIT",
-  "homepage": "https://ItsTino.github.io/chosen/",
-  "bugs": "https://github.com/ItsTino/chosen/issues",
+  "homepage": "https://ckng.github.io/chosen/",
+  "bugs": "https://github.com/ckng/chosen/issues",
   "_extra": {
     "title": "Chosen",
     "license": {
       "type": "MIT",
-      "url": "https://github.com/ItsTino/chosen/blob/master/LICENSE.md"
+      "url": "https://github.com/ckng/chosen/blob/master/LICENSE.md"
     },
     "links": {
-      "download": "https://github.com/ItsTino/chosen/releases",
-      "docs": "https://ItsTino.github.io/chosen/"
+      "download": "https://github.com/ckng/chosen/releases",
+      "docs": "https://ckng.github.io/chosen/"
     },
     "main": [
       "chosen.jquery.js",

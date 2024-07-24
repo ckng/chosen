@@ -1,4 +1,4 @@
-[![Grunt Test](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt-test.yml/badge.svg)](https://github.com/ItsTino/chosen/actions/workflows/npm-grunt-test.yml)[![Build and Release](https://github.com/ItsTino/chosen/actions/workflows/release.yml/badge.svg)](https://github.com/ItsTino/chosen/actions/workflows/release.yml)[![Deploy static content to Pages](https://github.com/ItsTino/chosen/actions/workflows/static.yml/badge.svg?branch=master)](https://github.com/ItsTino/chosen/actions/workflows/static.yml)
+[![Grunt Test](https://github.com/ckng/chosen/actions/workflows/npm-grunt-test.yml/badge.svg)](https://github.com/ckng/chosen/actions/workflows/npm-grunt-test.yml)[![Build and Release](https://github.com/ckng/chosen/actions/workflows/release.yml/badge.svg)](https://github.com/ckng/chosen/actions/workflows/release.yml)[![Deploy static content to Pages](https://github.com/ckng/chosen/actions/workflows/static.yml/badge.svg?branch=master)](https://github.com/ckng/chosen/actions/workflows/static.yml)
 # This library is old and abandoned
 This repo existed solely as a way to merge incomplete PR's into the most recent (also abandoned) fork of chosenJS
 If you are trying to start a new project with this library
@@ -13,10 +13,10 @@ Chosen is a library for making long, unwieldy select boxes more user friendly.
 - Prototype support: 1.7+
 
 For **documentation**, usage, and examples, see:
-https://ItsTino.github.io/chosen/
+https://ckng.github.io/chosen/
 
 For **downloads**, see:
-https://github.com/ItsTino/chosen/releases/
+https://github.com/ckng/chosen/releases/
 
 ### Package managers
 This fork is not available on Package Managers
@@ -37,5 +37,5 @@ We welcome all to participate in making Chosen the best software it can be. The 
 - Forked from [JJJ/chosen](https://github.com/JJJ/chosen)
 - Design and CSS by [Matthew Lettini](http://matthewlettini.com/)
 - 1.8.x and earlier maintained by [@pfiller](http://github.com/pfiller), [@kenearley](http://github.com/kenearley), [@stof](http://github.com/stof), [@koenpunt](http://github.com/koenpunt), and [@tjschuck](http://github.com/tjschuck)
-- 2.0.x and later maintained by [@ItsTino](http://github.com/ItsTino) and contributors
+- 2.0.x and later maintained by [@ckng](http://github.com/ckng) and contributors
 - Chosen includes [contributions by many fine folks](https://github.com/harvesthq/chosen/contributors)
