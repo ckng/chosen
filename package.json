@@ -39,7 +39,7 @@
     "grunt-zip": "~0.17.1",
     "grunt1.0-dom-munger": "~3.4",
     "load-grunt-tasks": "^3.5.2",
-    "node-sass": "^6.0",
+    "sass": "^1.77.8",
     "simulant": "^0.2.2"
   },
   "contributors": [
