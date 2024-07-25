@@ -27,14 +27,14 @@ jobs:
       run: grunt build
 
     - name: Zip Build Artifacts
-      run: zip -r chosen-build-${{  github.ref_name }}".zip ./docs/
+      run: zip -r chosen-build-${{  github.ref_name }}.zip ./docs/
 
     - name: Create a Release
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         tag: ${{ github.ref_name }}
       run: |
-        gh release create "$tag" chosen-build-${{  github.ref_name }}".zip \
+        gh release create "$tag" chosen-build-${{  github.ref_name }}.zip \
           --repo="$GITHUB_REPOSITORY" \
           --title="${GITHUB_REPOSITORY#*/} ${tag#v}" \
           --generate-notes
