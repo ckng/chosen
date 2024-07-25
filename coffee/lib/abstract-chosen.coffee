@@ -445,7 +445,7 @@ class AbstractChosen
     """
       <a class="chosen-single chosen-default" role="button">
         <span>#{@default_text}</span>
-        <div aria-label="Show options"><b aria-hidden="true"></b></div>
+        <div role="button" aria-label="Show options"><b aria-hidden="true"></b></div>
       </a>
       <div class="chosen-drop">
         <div class="chosen-search">
