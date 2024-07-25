@@ -27,7 +27,7 @@ jobs:
       run: grunt build
 
     - name: Zip Build Artifacts
-      run: zip -r chosen-build-${{ tag }}.zip ./docs/
+      run: zip -r chosen-build-$GITHUB_REF_NAME.zip ./docs/
 
     - name: Create a Release
       id: create_release
@@ -35,8 +35,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: ${{ tag }}
-        release_name: Release ${{ tag }}
+        tag_name: $GITHUB_REF_NAME
+        release_name: Release $GITHUB_REF_NAME
         draft: false
         prerelease: false
 
@@ -46,6 +46,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./chosen-build-${{ tag }}.zip
-        asset_name: chosen-build-${{ tag }}.zip
+        asset_path: ./chosen-build-$GITHUB_REF_NAME.zip
+        asset_name: chosen-build-$GITHUB_REF_NAME.zip
         asset_content_type: application/zip
