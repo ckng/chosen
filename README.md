@@ -5,6 +5,38 @@ If you are trying to start a new project with this library
 - Don't do it
 - Accept that this will likely never be updated
 
+## Replace Drupal chosen/chosen_lib module libraries.
+Extract the released zip into THEMES/js/chosen, for example, where THEME is your theme name.
+
+In your THEME.libraries.yml:
+```
+chosen:
+  remote: https://github.com/ckng/chosen
+  version: 2.2.1
+  license:
+    name: MIT
+    url: https://github.com/ckng/chosen/blob/master/LICENSE.md
+    gpl-compatible: true
+  js:
+    js/chosen/chosen.jquery.min.js: { minified: true }
+  dependencies:
+    - core/jquery
+
+chosen.css:
+  version: 2.2.1
+  css:
+    component:
+      js/chosen/chosen.css: {}
+```
+
+In your THEME.info.yml, override fully the default from chosen_lib.
+```
+libraries-override:
+  chosen_lib/chosen: THEME/chosen
+  chosen_lib/chosen.css: THEME/chosen.css
+
+```
+
 # Chosen
 
 Chosen is a library for making long, unwieldy select boxes more user friendly.
