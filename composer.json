@@ -3,8 +3,12 @@
   "description": "Chosen is a JavaScript plugin that makes select boxes user-friendly. It is currently available in both jQuery and Prototype flavors.",
   "authors": [
     {
-      "name": "John James Jacoby",
+      "name": "Ng Chin Kiong",
       "homepage": "https://github.com/ckng"
+    },
+    {
+      "name": "John James Jacoby",
+      "homepage": "https://github.com/jjj"
     },
     {
       "name": "Patrick Filler",
