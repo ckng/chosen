@@ -2,8 +2,8 @@ name: Build and Release
 
 on:
   push:
-    branches:
-      - master
+    tags:
+      - "commit-*"
 
 jobs:
   build-and-release:
@@ -24,7 +24,7 @@ jobs:
       run: grunt build
 
     - name: Zip Build Artifacts
-      run: zip -r chosen-build-${{ github.sha }}.zip ./docs/
+      run: zip -r chosen-build-${{ tag }}.zip ./docs/
 
     - name: Create a Release
       id: create_release
@@ -32,8 +32,8 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
-        tag_name: commit-${{ github.sha }}
-        release_name: Release commit-${{ github.sha }}
+        tag_name: ${{ tag }}
+        release_name: Release ${{ tag }}
         draft: false
         prerelease: false
 
@@ -43,6 +43,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./chosen-build-${{ github.sha }}.zip
-        asset_name: chosen-build-${{ github.sha }}.zip
+        asset_path: ./chosen-build-${{ tag }}.zip
+        asset_name: chosen-build-${{ tag }}.zip
         asset_content_type: application/zip
