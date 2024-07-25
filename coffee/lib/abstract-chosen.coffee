@@ -449,7 +449,7 @@ class AbstractChosen
       </a>
       <div class="chosen-drop">
         <div class="chosen-search">
-          <input class="chosen-search-input" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" />
+          <input class="chosen-search-input" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="list" autocomplete="off" aria-label="Search" />
         </div>
         <ul class="chosen-results" role="listbox"></ul>
       </div>
@@ -459,7 +459,7 @@ class AbstractChosen
     """
       <ul class="chosen-choices">
         <li class="search-field">
-          <input class="chosen-search-input" type="text" autocomplete="off" role="combobox" placeholder="#{@default_text}" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="list" />
+          <input class="chosen-search-input" type="text" autocomplete="off" role="combobox" placeholder="#{@default_text}" aria-expanded="false" aria-haspopup="listbox" aria-autocomplete="list" aria-label="Search" />
         </li>
       </ul>
       <div class="chosen-drop">
