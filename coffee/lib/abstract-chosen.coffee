@@ -443,9 +443,9 @@ class AbstractChosen
 
   get_single_html: ->
     """
-      <a class="chosen-single chosen-default" role="button">
+      <a class="chosen-single chosen-default" role="button" tabindex="1">
         <span>#{@default_text}</span>
-        <div role="button" aria-label="Show options"><b aria-hidden="true"></b></div>
+        <div role="button" aria-label="Show options" tabindex="-1"><b aria-hidden="true"></b></div>
       </a>
       <div class="chosen-drop">
         <div class="chosen-search">

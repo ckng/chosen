@@ -1,11 +1,12 @@
 [![Grunt Test](https://github.com/ckng/chosen/actions/workflows/npm-grunt-test.yml/badge.svg)](https://github.com/ckng/chosen/actions/workflows/npm-grunt-test.yml)[![Build and Release](https://github.com/ckng/chosen/actions/workflows/release.yml/badge.svg)](https://github.com/ckng/chosen/actions/workflows/release.yml)[![Deploy static content to Pages](https://github.com/ckng/chosen/actions/workflows/static.yml/badge.svg?branch=master)](https://github.com/ckng/chosen/actions/workflows/static.yml)
+
 # This library is old and abandoned
 This repo existed solely as a way to merge incomplete PR's into the most recent (also abandoned) fork of chosenJS
 If you are trying to start a new project with this library
 - Don't do it
 - Accept that this will likely never be updated
 
-## Replace Drupal chosen/chosen_lib module libraries.
+## To replace Drupal chosen/chosen_lib module libraries.
 Extract the released zip into THEMES/js/chosen, for example, where THEME is your theme name.
 
 In your THEME.libraries.yml:
